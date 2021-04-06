@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: arial, helvetica, sans-serif;
+}
+article {
+  background: url(images/header.jpg) no-repeat left top;
+background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0) 25%, rgba(0,0,0,0) 75%, rgba(0,0,0,0.2)),
+              url(images/header.jpg) no-repeat left top,
+              url(images/footer.jpg) no-repeat right bottom;
+  background-color: white;
+  border-top: 3px solid rgb(100,230,100);
+  border-bottom: 3px solid rgb(230,230,100);
+  border-left: 3px solid rgb(100,230,100);
+  border-right: 3px solid rgb(230,230,100);
+  width: 800px;
+  height: 1200px;
+  position: relative;
+  margin: 0 0 auto;
+}
+
+body {
+  margin: 0;
+  background: white;
+}
+
+
+address {
+  position: absolute;
+  bottom: 90px;
+  right: 100px;
+}
+
+h1 {
+  position: absolute;
+  width:127px;
+  height:127px;
+  top: 80px;
+  left: 70px;
+  font-size: 20px;
+  text-align: center;
+  padding: 40px 0;
+  color: black;
+  text-shadow: 2px 2px 1px rgba(230,230,100,0.5);
+  background-image: url(images/Logo2.jpg);
+  border-radius: 50%;
+  box-shadow: 3px 3px 2px 2px rgba(100,230,100,0.7), -3px -3px 2px 2px rgba(230,230,100,0.7);
+}
